@@ -1,0 +1,21 @@
+<div>
+	<div class="container">
+		<div class="row">
+			<h4 class="light">
+				Angular js example
+			</h4>
+			<p class="caption">
+				This is a component written with Angular 1.5 and angular-ui-router.
+			</p>
+		</div>
+		<div>
+			<label>last message = {{vm.txt}}</label><br />
+			<label for="message">Please send a message to React</label>
+			<input type="text" name="message" ng-model="vm.message"/><br />
+			<input type="button" ng-click="vm.onButtonClick()" value="Send" />
+		</div>
+		<div class="row">
+			<ui-view />
+		</div>
+	</div>
+</div>
