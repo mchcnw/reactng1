@@ -1,22 +1,22 @@
 {
   "name": "simple-single-spa-webpack-example",
   "version": "1.0.0",
-  "description": "A simple example of how to use webpack with single-spa",
+  "description": "A simple example of how to use react angularjs and single spa",
   "scripts": {
     "watch": "webpack --config webpack.config.js -w",
     "build": "webpack --config webpack.config.js -p",
-    "start": "http-server . -p 9090 -c 1"
+    "start": "http-server . -p 9080 -c 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joeldenning/simple-single-spa-webpack-example.git"
+    "url": "git+https://github.com/mchcnw/reactng1.git"
   },
-  "author": "Joel Denning",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joeldenning/simple-single-spa-webpack-example/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/joeldenning/simple-single-spa-webpack-example#readme",
+  "homepage": "",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
@@ -26,14 +26,10 @@
     "http-server": "^0.10.0",
     "ts-loader": "^2.3.2",
     "typescript": "^2.4.2",
-    "webpack": "^3.4.1"
+    "webpack": "^3.4.1",
+    "html-loader": "^0.5.1"
   },
   "dependencies": {
-    "@angular/common": "^4.3.3",
-    "@angular/compiler": "^4.3.3",
-    "@angular/core": "^4.3.3",
-    "@angular/platform-browser": "^4.3.3",
-    "@angular/platform-browser-dynamic": "^4.3.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "reflect-metadata": "^0.1.10",
@@ -41,6 +37,9 @@
     "single-spa": "^3.5.0",
     "single-spa-angular2": "^1.0.2",
     "single-spa-react": "^2.0.3",
-    "zone.js": "^0.8.16"
+    "zone.js": "^0.8.16",
+    "angular": "^1.5.11",
+    "angular-ui-router": "^1.0.3",
+    "single-spa-angular1": "^2.3.0"
   }
 }
