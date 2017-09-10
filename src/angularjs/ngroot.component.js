@@ -12,7 +12,6 @@ angular
 		const vm = this;
 
 		vm.styles = {};
-		vm.onButtonClick = onButtonClick;
 		vm.txt = 'hello from angularjs';
 		vm.message ='';
 
